@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 const Skills = () => {
   return (
     <div>
-    <Navbar/>
+    {/* <Navbar/> */}
     <div className="flex flex-col md:flex-row bg-gradient-to-r from-teal-900 to-black min-h-screen p-8 text-white">
       
       <div className="w-full md:w-1/2 mb-8 md:mb-0">
