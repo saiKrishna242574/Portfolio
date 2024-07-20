@@ -34,11 +34,11 @@ const Projects = () => {
   };
 
   return (
-    <div className="flex flex-col pl-[5vw] md:flex-row bg-gradient-to-r from-teal-900 to-black h-[30vw] text-white">
-      <div className="flex flex-col w-full h-[20vw]  md:w-1/4 p-4 border-r border-gray-700">
+    <div className="flex flex-col pl-[5vw] md:flex-row  bg-gradient-to-r  from-teal-900 to-black h-[30vw] text-white">
+      <div className="flex flex-col w-full h-[20vw] mt-[7vw] md:w-1/4 p-4 border-r border-gray-700">
         <h2 className="text-3xl font-bold mb-4">Work Experience</h2>
         {/* <p className="mb-8">I switch a lot of companies. It's mostly about the culture.</p> */}
-        <div className="space-y-4">
+        <div className="space-y-4 ">
           {Object.keys(experiences).map((company) => (
             <div
               key={company}
@@ -57,7 +57,7 @@ const Projects = () => {
         transition={{ duration: 0.5 }}
         className="flex flex-col w-full md:w-3/4 p-8"
       >
-        <h2 className="text-2xl font-bold mb-4">
+        <h2 className="text-2xl font-bold mb-4 mt-[7vw]">
           {experiences[selectedCompany].position} <span className="text-teal-400">{experiences[selectedCompany].company}</span>
         </h2>
         <p className="mb-4">{experiences[selectedCompany].duration}</p>

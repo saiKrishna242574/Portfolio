@@ -4,12 +4,15 @@ import { MdEmail, MdPhone } from 'react-icons/md';
 
 const Contact = () => {
   return (
-    <div className='flex flex-col h-screen justify-center items-center bg-gradient-to-r from-teal-900 to-black text-white'>
+    <div className='flex flex-col h-[40vw]  justify-center items-center bg-gradient-to-r from-teal-900 to-black text-white'>
+      <div className='mt-[8vw]'>
       <h1 className='text-3xl mb-[8vw]'>
-        <span className='text-4xl text-white font-bold hover:text-teal-500 transition duration-500'>Contact Me</span>
+        <span className='text-4xl text-white font-bold hover:text-teal-500 transition duration-500 '>Contact Me</span>
         {/* <span className='hover:text-teal-500 text-white transition duration-500'> Me</span> */}
       </h1>
-      <div className='flex flex-wrap justify-center gap-16 mb-8'>
+      </div>
+    
+      <div className='flex flex-wrap justify-center gap-16 mt-[-3vw]'>
         <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className='hover:text-teal-500 hover:shadow-2xl hover:shadow-teal-500 transition-shadow duration-500' size={80} />
         </a>
