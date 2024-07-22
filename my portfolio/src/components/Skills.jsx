@@ -4,10 +4,10 @@ import Navbar from './Navbar';
 const Skills = () => {
   return (
     <div>
-    <Navbar/>
-    <div className="flex flex-col md:flex-row bg-gradient-to-r from-teal-900 to-black min-h-screen p-8 text-white">
+    {/* <Navbar/> */}
+    <div className="flex flex-col md:flex-row bg-gradient-to-r from-teal-900 to-black min-h-3 p-8 text-white">
       
-      <div className="w-full md:w-1/2 mb-8 md:mb-0">
+      <div className="w-full md:w-1/2 mb-8  mt-[5vw] md:mb-0">
         <h2 className="text-3xl font-bold mb-4 text-center  border-teal-500 pb-2">Technical Skills</h2>
         <div className="space-y-12 mt-[4vw]">
           <SkillLine name="HTML" percentage={90} />
@@ -17,7 +17,7 @@ const Skills = () => {
           <SkillLine name="React.js" percentage={75} />
         </div>
       </div>
-      <div className="w-full md:w-1/2">
+      <div className="w-full  mt-[5vw] md:w-1/2">
         <h2 className="text-3xl font-bold mb-4 text-center  border-teal-500 pb-2">Professional Skills</h2>
         <div className="flex flex-wrap justify-around">
           <div className="flex flex-col items-center space-y-16 mt-[4vw]">

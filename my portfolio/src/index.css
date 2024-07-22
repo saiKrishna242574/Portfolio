@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Space+Grotesk:wght@300..700&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Krona+One&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Space+Grotesk:wght@300..700&family=Space+Mono&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dancing-script{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .playfair {
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  .krona-one-regular {
+    font-family: "Krona One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  .belleza-regular {
+    font-family: "Belleza", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
